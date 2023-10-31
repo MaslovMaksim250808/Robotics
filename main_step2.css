@@ -1,0 +1,107 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin:0;
+    padding: 0;
+}
+.text-header:hover {
+    background-color: orange;
+}
+.menu-link{
+    color: white;
+    text-decoration: none;
+}
+.menu-link:hover{
+    margin: 15px;
+}
+.container{
+    max-width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+.main{
+   max-width: 100%;
+}
+
+.banner{
+    display:flex;
+    justify-content: space-around;
+    padding: 100px 0;
+    max-width: 100%;
+    background: url(icons/banner-bg.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.information{
+    display:flex;
+    margin-top: 30px;
+    justify-content: space-around;
+}
+.text-button{
+    display:flex;
+    flex-direction: column;
+}
+.text-button-title{
+    display:flex;
+    font-family: Montserrat;
+}
+.text-button-inf{
+    font-size: 20px;
+    display:flex;
+    width: 350px;
+    font-family: Montserrat;
+}
+.text-button-but{
+    width: 170px;
+    height: 40px;
+    background-color: orange;
+    border-radius: 10px;
+    margin-top: 40px;
+    margin-left: 15px;
+}
+.text-button-buton{
+    width: 170px;
+    height: 40px;
+    background-color: white;
+    border: solid;
+    border-color: orange;
+    border-radius: 10px;
+    margin-top: 24px;
+    margin-left: 15px;
+}
+.pieces-text-image{
+    display:flex;
+    flex-wrap: wrap;
+    width: 500px;
+}
+.piece-image{
+    padding: 19px;
+    wight: 70px;
+    height: 70px;
+}
+.piece-text{
+    font-size: 20px;
+}
+.piece-text-image{
+    width: 50%;
+    margin-bottom: 20px;
+}
+.footer-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #3F3D3D;
+    height: 20px;
+    background: url(icons/footer-bg.jpg);
+    background-size: cover;
+    padding: 100px 0px;
+}
+.footer-text {
+    margin-right: 550px;
+    color: white;
+}
+.icons-container {
+    display: flex;
+    width: 210px;
+    justify-content: space-around;
+}
+
